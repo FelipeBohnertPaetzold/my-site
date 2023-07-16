@@ -1,0 +1,20 @@
+{
+  "name": "my-site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:FelipeBohnertPaetzold/my-site.git",
+  "author": "Felipe Bohnert Paetzold <felipe.paetzold@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "spectre.css": "^0.5.9"
+  },
+  "scripts": {
+    "build:digitalocean": "yarn install --production=false && yarn gulp"
+  },
+  "devDependencies": {
+    "@types/gulp-sass": "^5.0.1",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.63.6"
+  }
+}

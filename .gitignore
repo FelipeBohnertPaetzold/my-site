@@ -1,0 +1,4 @@
+/node_modules
+/assets
+# Ignore css maps
+*.css.map
