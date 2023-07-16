@@ -4,9 +4,6 @@
   "repository": "git@github.com:FelipeBohnertPaetzold/my-site.git",
   "author": "Felipe Bohnert Paetzold <felipe.paetzold@gmail.com>",
   "license": "MIT",
-  "scripts": {
-    "build:digitalocean": "yarn install --production=false && yarn gulp && rm -rf node_modules && yarn install --production --frozen-lockfile"
-  },
   "dependencies": {
     "spectre.css": "^0.5.9"
   },
