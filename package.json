@@ -8,9 +8,6 @@
   "dependencies": {
     "spectre.css": "^0.5.9"
   },
-  "scripts": {
-    "build:digitalocean": "yarn install --production=false && yarn gulp"
-  },
   "devDependencies": {
     "@types/gulp-sass": "^5.0.1",
     "gulp": "^4.0.2",
