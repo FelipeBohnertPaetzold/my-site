@@ -1,5 +1,5 @@
 /node_modules
-/public/css
-/public/js
+/_static/css
+/_static/js
 # Ignore css maps
 *.css.map
