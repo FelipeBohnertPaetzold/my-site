@@ -7,7 +7,7 @@ const sass = require('gulp-sass')(require('sass'));
 function buildStyles() {
   return gulp.src('sass/app.scss')
     .pipe(sass({ outputStyle: 'compressed' }).on('error', sass.logError))
-    .pipe(gulp.dest('css'));
+    .pipe(gulp.dest('public/css'));
 }
 
 function defaultTask(cb) {
